@@ -1,0 +1,74 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="650" Background="#FF14BDAC" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid
+        Height="451" VerticalAlignment="Top" RenderTransformOrigin="0.136,0.022" Loaded="Grid_Loaded">
+        <Label x:Name="xpointlbl" Content="X: 0" HorizontalAlignment="Left" Margin="32,131,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="22"/>
+        <Label x:Name="opointlbl" Content="O: 0" HorizontalAlignment="Left" Margin="32,163,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.7,2.5" FontSize="22"/>
+        <Label Content="Enes Uçar" HorizontalAlignment="Left" Margin="564,390,0,82" RenderTransformOrigin="0.7,2.5"/>
+        <TextBlock x:Name="_4" HorizontalAlignment="Left" Margin="290,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+        <TextBlock x:Name="_5" HorizontalAlignment="Left" Margin="397,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+        <Label Content="Developed By Enes Uçar" HorizontalAlignment="Left" Margin="-1,417,0,0" VerticalAlignment="Top" MouseLeftButtonDown="Exit_MouseLeftButtonDown" FontSize="10"/>
+        <Image x:Name="close" HorizontalAlignment="Left" Height="19" Margin="624,13,0,0" VerticalAlignment="Top" Width="20" PreviewMouseLeftButtonDown="Close_PreviewMouseLeftButtonDown" Cursor="Hand"/>
+        <Image x:Name="newgamebutton" HorizontalAlignment="Left" Height="34" Margin="26,40,0,0" VerticalAlignment="Top" Width="140" PreviewMouseLeftButtonDown="Newgamebutton_PreviewMouseLeftButtonDown" Cursor="Hand"/>
+        <Grid x:Name="gamegrid" HorizontalAlignment="Left" Height="281" Margin="280,81,0,0" VerticalAlignment="Top" Width="323">
+            <Rectangle Fill="#FF0DA192" HorizontalAlignment="Left" Height="278" Margin="104,4,0,-1" Stroke="#FF0DA192" VerticalAlignment="Top" Width="10"/>
+            <Rectangle Fill="#FF0DA192" HorizontalAlignment="Left" Height="308" Margin="158,-59,0,0" Stroke="#FF0DA192" VerticalAlignment="Top" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.126"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Fill="#FF0DA192" HorizontalAlignment="Left" Height="307" Margin="157,38,0,-64" Stroke="#FF0DA192" VerticalAlignment="Top" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.126"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <TextBlock x:Name="_1" HorizontalAlignment="Left" Margin="9,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+           LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"><InlineUIContainer>
+                    <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+                </InlineUIContainer></TextBlock>
+            <TextBlock x:Name="_2" HorizontalAlignment="Left" Margin="115,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="_3" HorizontalAlignment="Left" Margin="212,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="_6" HorizontalAlignment="Left" Margin="213,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="_7" HorizontalAlignment="Left" Margin="9,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="_8" HorizontalAlignment="Left" Margin="116,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonDown="rowClick_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="_9" HorizontalAlignment="Left" Margin="222,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" LineStackingStrategy="BlockLineHeight"
+            LineHeight="85"  Height="83" Width="95" FontFamily="Adobe Fangsong Std R" FontSize="48" RenderTransformOrigin="0.526,0.482" TextAlignment="Center" PreviewMouseLeftButtonUp="rowClick_PreviewMouseLeftButtonDown"/>
+            <Rectangle Fill="#FF0DA192" HorizontalAlignment="Left" Height="277" Margin="215,1,0,0" Stroke="#FF0DA192" VerticalAlignment="Top" Width="10"/>
+        </Grid>
+        <TextBlock x:Name="infolbl" HorizontalAlignment="Left" Margin="548,413,-2,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="104" FontFamily="Segoe UI Historic" TextAlignment="Center" Foreground="#FFFD0808"/>
+        <Rectangle Fill="#FF00F121" HorizontalAlignment="Left" Height="17" Margin="306,120,0,0" Stroke="#FF0DA192" VerticalAlignment="Top" Width="286" RenderTransformOrigin="-6.195,4.059">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-30.415"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</Window>
