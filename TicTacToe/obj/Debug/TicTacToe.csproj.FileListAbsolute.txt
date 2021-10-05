@@ -1,0 +1,30 @@
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe_MarkupCompile.cache
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe_MarkupCompile.lref
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.g.resources
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\lenovo\Desktop\Web Tasarım ve Programlama\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\MainWindow.g.cs
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\App.g.cs
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe_MarkupCompile.cache
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe_MarkupCompile.lref
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\MainWindow.baml
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.g.resources
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Eren\Desktop\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
